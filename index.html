@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">DEV PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Bhavesh Sarvankar</span></h1>
+                <h2>Full Stack Developer</h2>
+                <p>I try to build amazing web experiences</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate developer with 5 years of experience creating web applications. I specialize in JavaScript frameworks and responsive design.</p>
+                    <p>When I'm not coding, you can find me gaming, reading tech blogs, or contributing to open source projects.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Quiz-App</h3>
+                        <p>A quiz app tests users with questions and scores their answers.</p>
+                        <div class="project-links">
+                            <a href="https://quizappbash.netlify.app/" class="btn-small" target="_blank">Live Demo</a>
+                            <a href="https://github.com/BhaveshSarvankar/quizapp" class="btn-small" target="_blank">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A productivity app for teams to collaborate on projects and track progress.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Live Demo</a>
+                            <a href="#" class="btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>Real-time weather information with 5-day forecast using weather API.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn-small">Live Demo</a>
+                            <a href="#" class="btn-small">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Developer Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
