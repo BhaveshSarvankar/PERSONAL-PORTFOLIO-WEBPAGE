@@ -97,6 +97,12 @@ Include a blog section for technical writing and tutorials.
 
 Improve accessibility using ARIA roles and semantic HTML.
 
+# OUTPUT
+
+<img width="1919" height="864" alt="Image" src="https://github.com/user-attachments/assets/218f3bdf-606c-4f87-acb7-7a60ab16836c" />
+
+<img width="1894" height="861" alt="Image" src="https://github.com/user-attachments/assets/6d8d7382-ecbf-4a78-a7b1-c62388b01e14" />
+
 🎯 Conclusion
 
 This Personal Portfolio Webpage is a comprehensive showcase of Bhavesh Sarvankar’s skills, projects, and accomplishments. 🌟 It reflects professionalism, creativity, and dedication to web development. With a responsive, visually appealing, and interactive design, it serves as an effective platform for networking, career growth, and establishing a strong online presence.
